@@ -1,0 +1,41 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url(Norse-Bold.otf);
+}
+
+* {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body, html {
+    height: 100%;
+}
+
+
+.container {
+    height: 100%;
+    display: flex;
+}
+
+#formSide{    
+    background-color: rgb(247, 247, 247);
+    height: 100%;
+    border-style: dashed;
+    border-color: black;
+}
+
+#signUp {
+    height: 33%;
+}
+
+#imageSide {
+    width: 33%;
+    height:100%;
+}
+
+#signUp {
+    padding: 10px;
+    box-shadow:rgb(0, 0, 0);
+    background-color: white;
+}

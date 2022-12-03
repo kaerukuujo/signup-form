@@ -9,6 +9,35 @@
     <script src="script.js"></script>
 </head>
 <body>
-    <h1>This is Dummy Content</h1>
+    <div class="container">
+        <div id="imageSide">
+            <img src="image.jpg" alt="leafBackground" height="100%" width="100%">
+            
+        </div>
+        <div id="formSide">
+            <p>This is not a real online service! You know you need something
+                like this in your life to help you realize your deepest dreams
+                Sign up <em>now</em> to get started
+            </p>
+            <p>You know you want to</p>
+            <form id="signUp">
+                <h2>Let's do this!</h2>
+                <label for="first_name">FIRST NAME</label>
+                <input type="text" id="first_name" name="first_name">
+                <label for="last_name">LAST NAME</label>
+                <input type="text" id="last_name" name="last_name">
+                <label for="user_email">EMAIL</label>
+                <input type="email" name="user_email" id="user_email">
+                <label for="phone_num">PHONE NUMBER</label>
+                <input type="tel" id="phone_num" name="phone_num">
+                <label for="password">PASSWORD</label>
+                <input type="password" id="password" name="password">
+                <label for="confirmPass">CONFIRM PASSWORD</label>
+                <input type="password" id="confirmPass" name="confirmPass">
+            </form>
+            <button id="createAcc">Create Account</button>
+            <p id="logIn">Already have an account? <a href="">Log In</a></p>
+        </div>
+    </div>
 </body>
 </html>
